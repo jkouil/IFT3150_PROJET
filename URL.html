@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site du projet IFT3150 de Qiwu Wen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agent conversationnel pour soulager la solitude des personnes âgées</h1>
+        <h2>Étudiant : Qiwu Wen (20230961)</h2>
+        <h2>Courriel: qiwu.wen@umontreal.ca</h2>
+        <h2>Supervisé par <a href="http://rali.iro.umontreal.ca/nie/jian-yun-nie/"> Prof. Jian-Yun Nie </a></h2>
+        
+        
+    </header>
+    <div class="container">
+        <section>
+            <h2>Énoncé du projet</h2>
+            <h1>Le projet Axel</h1>
+            <p>Le projet Axel est un projet collaboratif entre l'Université de Sherbrooke et l'Université de Montréal pour développer un robot conversationnel pour soulager l'isolement de plusieurs personnes âgées dans les CHSLD et les Résidences privées pour aînés (RPA).</p>
+               
+            <h1>Cadre du projet</h1>
+            <p>Le projet est une solution pour contrer l'isolement social de plusieurs personnes agées dans leur lieu de résidencecausé par la crise mondiale de la COVID-19, en développant un robot intelligent qui a saura entretenir une conversation avec eux</p>
+            <h1>Les travaux déjà réalisés</h1> 
+            <p>Le projet est divisé en plusieurs sous-tâche. Dans ce projet, une version d'agent conversationnel basée sur le grand model de langue (LLM) GPT est déjà réalisé par un autre étudiant Linrui Ma</p>
+            <h1>Les travaux à réalisés (sous-tâche)</h1> 
+            <p>L'étudiant est reponsable de réaliser une nouvelle version de l'agent conversationnel ,qui serait en mesure de tenir compte des profils des personnes âgées qui dialoguent avec le robot, basé sur le LLM Llama3 et le framework open source pour les systèmes de dialogue intelligent Ollama.
+            </p>
+        </section>
+        <section>
+
+        </section>
+        <section>
+            <h2>Description détaillé</h2>
+            <h3>Titre</h3>
+            <p>Agent conversationnel version Llama dans le Projet Axel</p>
+            <h3>Spécification fonctionnelle</h3>
+        <p>Le système doit permettre aux personnes âgées de converser naturellement avec un agent virtuel. Les principales fonctionnalités incluent :</p>
+        
+            <ul>
+                <li>Compréhension et génération de texte en langage naturel</li>
+                <li>Personnalisation des interactions en fonction des profils des utilisateurs</li>
+                <li>Support multilingue (français et anglais)</li>
+                <li>Génération des interactions pertinents avec l'amélioration du contrôle d'émotion du LLM Llama3</li>
+                <li>Intégration avec des services de santé et de bien-être</li>
+            </ul>
+            <h3>Environnement et contraintes techniques</h3>
+            <ul>
+                <li>Conversation entre les personnes âgées et le robot Axel</li>
+                <li>Utilisation du modèle de langage Llama3 pour la compréhension et la génération de texte</li>
+                <li>Utilisation du framework Ollama pour la gestion des dialogues</li>
+
+                <li>Les maladies chroniques qui surviennent souvent chez les personnes âgées: comme la maladie d'Alzheimer, les troubles de la parole, la manie, etc. peuvent conduire à une mauvaise efficacité du dialogue.</li>
+                <li>Les ressources de calcul limitées qui sont très coûteuses pour entraîner un LLM</li>
+                
+                <li>Déploiement sur un serveur pour assurer la scalabilité et l'accessibilité par l'API fournie.</li>
+                
+            </ul>
+            <h3>Architecture logicielle</h3>
+            <ul>
+                
+                <li>Utilisation des techniques d'apprentissage basé sur prompt (Prompt-based learning) pour générer des dialogues pertinents</li>
+                <li>Utilisation des techniques d'apprentissage profond pour fine tuning le model (si possible)</li>
+                <li>Utilisation des autres techniques d'apprentissage automatique pour améliorer le model</li>
+            </ul>
+            <h3>Modules principaux de travail</h3>
+            <ul>
+                <li>Module de NLU (Natural Language Understanding) dans le LLM Llama3 pour la compréhension des entrées utilisateur</li>
+                <li>Module de NLG (Natural Language Generation) dans le LLM Llama3 pour la génération des réponses</li>
+                <li>Module de gestion des dialogues pour organiser les interactions (Ollama)</li>
+            </ul>
+
+            <h3>Interagir avec les autres modules du projet Axel</h3>
+            
+                <p>Interagir avec le robot Axel via API fournie</p>
+            
+        </section>
+
+        <div id="Plan">
+
+            <h2>Plan de développement</h2>
+            
+            <p> Date de début: le 27 Mai 2024 <br> 
+                Date de fin : le 5 Août 2024 (10 semaines) <br>
+                Date de présentation : à confirmer
+        
+            </p>
+        
+            
+            <p>Plan pour le mois de Mai : </p>
+            
+            <ul>
+              <li>Mise en place du site web</li>
+              <li>Lecture des papiers sur les techniques Prompt</li>
+              <li>Lecture des papiers sur les modèles GPT, Llama2 et Llama3, Transformer</li>
+              <li>Lecture du rapport du agent conversationnel version GPT</li>
+              <li>Implémenter le LLM Llama3 avec Ollama</li>
+            </ul>
+            
+            <p>À planifier : </p>
+            <ul>
+              <li>Contrôle émotion</li>
+               <li>Profils personnels des personnes âgées</li>
+        
+            </ul>
+          </div>
+
+          <div id="Plan">
+            <h1>Rapport d'avancement</h1>
+            <h2>Semaine 0: 23 au 26 Mai</h2>
+            <ul>
+                <li>Mise en place du site web</li>
+                <li>Lecture de l'article GPT-1 <a href = 'https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf'>Improving Language Understanding
+                    by Generative Pre-Training</a></li>
+
+                <li>Lecture du rapport agent conversation GPT du projet Axel</li>
+                <li>Se familiariser avec <a href = 'https://www.google.com/search?q=ollama&rlz=1C1VDKB_enCA1078CA1078&oq=ollama&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDAgCEAAYQxiABBiKBTIJCAMQABgMGIAEMgkIBBAAGAwYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyDggIEAAYChhDGIAEGIoFMg4ICRAAGAoYQxiABBiKBdIBCTMzODBqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8#ip=1'>Ollama </a></li>
+
+                </ul>
+            </div>
+
+
+            <div id="Rapport Final">
+                <h2>Rapport final</h2>
+                <p>À Faire....</p>
+            </div>
+    </div>
+</body>
+</html>
